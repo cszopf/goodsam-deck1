@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Zen+Antique&family=Caveat:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Zen Antique", serif;
+  --font-hand: "Caveat", cursive;
+
+  --color-gs-dark-green: #4f603e;
+  --color-gs-olive: #7c7c21;
+  --color-gs-cream: #fcfce4;
+  --color-gs-beige: #f9ecc9;
+  --color-gs-orange: #f48722;
+  --color-gs-burnt-orange: #d8600e;
+  --color-gs-pink: #ff9fc6;
+  --color-gs-red: #fc3027;
+}
+
+@layer base {
+  body {
+    @apply bg-gs-cream text-gs-dark-green font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans font-bold tracking-tight;
+  }
+}
+
+.brand-gradient {
+  background: linear-gradient(135deg, var(--color-gs-dark-green) 0%, var(--color-gs-olive) 100%);
+}
+
+.card-shadow {
+  box-shadow: 0 4px 20px rgba(79, 96, 62, 0.08);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--color-gs-dark-green);
+  opacity: 0.2;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gs-orange);
+}
