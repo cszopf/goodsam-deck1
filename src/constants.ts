@@ -6,10 +6,10 @@ export const DECK_CONTENT = [
     title: "Executive Snapshot",
     type: "bullet_list",
     data: [
-      "2025 Revenue: $7.5M (Actual)",
+      "2025 Revenue: $7.24M (Actual)",
       "+130% SPINS YoY Natural Expanded growth",
       "Whole Foods Market revenue +104% YoY",
-      "75% revenue concentration in core nut category",
+      "56.8% revenue concentration in core nut category",
       "63% YoY category growth rate",
       "Distribution expansion: +87% YoY",
       "Bridge Raise: $2M Convertible Note for working capital and margin expansion"
@@ -46,43 +46,30 @@ export const DECK_CONTENT = [
     footer: "Impact is embedded in unit economics, not treated as philanthropy."
   },
   {
-    id: 4,
-    title: "Market Tailwinds & Macro Validation",
-    type: "table",
-    headers: ["Category", "TAM/SAM", "Growth Rate (CAGR)"],
-    rows: [
-      ["Total Addressable Market (4 Categories)", "$60B", "N/A"],
-      ["Organic CPG", "$31B", "14%"],
-      ["Nuts, Coffee, Chocolate, Fruit Chips", "Varies", "High Single/Double Digit"],
-      ["Retail ESG Mandates", "Market-wide", "Accelerating"]
-    ],
-    notes: "Macro validation for capital deployment supported by regenerative category momentum and recent CPG deal activity."
-  },
-  {
     id: 5,
     title: "Traction: Revenue, Distribution & Velocity",
     type: "multi_section",
     sections: [
       {
         header: "Revenue & Category Mix",
-        items: ["2025A Revenue: $7.5M", "Core Nut Category: 75% of Revenue", "WFM Revenue: +104% YoY"]
+        items: ["2025A Revenue: $7.24M", "Core Nut Category: 56.8% of Revenue", "WFM Revenue: +104% YoY"]
       },
       {
         header: "Distribution & Velocity",
-        items: ["Distribution Growth: +87%", "SPINS YoY Natural Expanded: +130%", "Ecommerce: High weekly bag velocity"]
+        items: ["Distribution Growth: TDP +47%", "SPINS YoY Natural Expanded: +130%", "$60 AOV (up from $40 AOV trailing 12-month average)"]
       }
     ]
   },
   {
     id: 6,
-    title: "Unit Economics: Transition to Profitable Scale",
+    title: "Unit Economics: Blended Gross Margins",
     type: "table",
-    headers: ["Category", "Gross Margin (%)", "Target Margin (%)"],
+    headers: ["Category", "Current Blended Margin", "Target Margin (2026 YE)"],
     rows: [
-      ["Nuts", "46%", "48%+"],
-      ["Coffee", "42%", "45%"],
-      ["Chocolate", "38%", "55% (Target)"],
-      ["Fruit Chips", "41%", "45%"]
+      ["Nuts", "46%", "52%"],
+      ["Chocolate", "38%", "55%"],
+      ["Coffee", "34%", "40%"],
+      ["Fruit Chips", "34%", "42%"]
     ],
     initiatives: [
       "SKU rationalization to focus on high-margin core",
@@ -97,7 +84,8 @@ export const DECK_CONTENT = [
     type: "bullet_list",
     data: [
       "Focus on velocity in existing high-performing doors (WFM)",
-      "Margin optimization through COGS reduction and supply chain efficiency",
+      "Focused expansion in NCG and natural/premium regional strategic retailers",
+      "Margin optimization through COGS reduction, pricing discipline, and supply chain efficiency",
       "DTC expansion to capture higher-margin direct sales",
       "Strict trade spend control and promotional discipline",
       "Working capital discipline to ensure runway extension",
@@ -127,11 +115,12 @@ export const DECK_CONTENT = [
     id: 9,
     title: "Growth Projections: Credible Forecast",
     type: "table",
-    headers: ["Year", "Revenue (Base Case)", "Margin Trajectory"],
+    headers: ["Year", "Revenue", "Pre-Trade GM", "CM"],
     rows: [
-      ["2025A", "$7.5M", "Blended ~42%"],
-      ["2026E", "$9M – $10M", "Margin expansion to 45%+"],
-      ["2027E", "$13M – $15M", "Path to EBITDA breakeven"]
+      ["2025", "$7.24M", "38.2%", "7.4%"],
+      ["2026", "$12.6M", "48.5%", "26.4%"],
+      ["2027", "$17.4M", "53.1%", "30.6%"],
+      ["2028", "$23.1M", "55.3%", "36.5%"]
     ],
     notes: "Projections based on existing door velocity and SKU optimization, avoiding aggressive expansion curves."
   },
@@ -142,7 +131,8 @@ export const DECK_CONTENT = [
     data: [
       { name: "Heather Terry", role: "CEO", bio: "17 years CPG experience; Founder." },
       { name: "Marcia Bell", role: "COO", bio: "30+ years operations and supply chain." },
-      { name: "James Ren", role: "Advisory", bio: "Experience with Thrive Market, Walmart." },
+      { name: "James Ren", role: "Head of Finance", bio: "Experience with Thrive Market, Walmart." },
+      { name: "Iryna Estevez", role: "VP of Sales", bio: "Strategic sales leadership and retail expansion expert." },
       { name: "Board", role: "Governance", bio: "Alive, Desert Bloom, LatAm Impact, Acumen." }
     ]
   },
